@@ -39,32 +39,49 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+### `Dashboard:`
+Location :(src-->pages-->Admid-->dashboard.js)
+Displaying a summary of key metrics or features that is total number of products, orders.
+Includeing buttons for quick navigation to the Products and Orders management pages.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+#Output
+![image](https://github.com/AkashPaul007/Enterprise-Resource-Planning-Model/assets/162669398/fc449cb7-db85-47b9-81b7-26e314e18131)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+### `Products Management:`
+Location :(src-->pages-->Admid-->Product.js)
+Form to take inputes details like product name ,category,price,stock quantity .
+Presenting a list of products with details such as name, category, price, and stock quantity, using mock data.
+Having functionalities to add, edit, and delete products.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+#Output
+![image](https://github.com/AkashPaul007/Enterprise-Resource-Planning-Model/assets/162669398/cee73e57-7787-4731-a442-e2badf544f8f)
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### `Orders Management:`
+Location :(src-->pages-->Admid-->Order.js)
+Form to take inputes details like customer name,order date
+Showing a list of orders, including details like order ID, customer name, order date, and status, using mock data.
+Allow viewing of order details, updating the order status, and deletion of orders.
 
-### Making a Progressive Web App
+#Output
+![image](https://github.com/AkashPaul007/Enterprise-Resource-Planning-Model/assets/162669398/afbe3396-d9c0-4476-b20d-841526d6f2fd)
+![image](https://github.com/AkashPaul007/Enterprise-Resource-Planning-Model/assets/162669398/cc6c7cc7-7ce0-4108-94a8-be28686d7ae3)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
+## include 
+This folder
+Consists of file name (Footer.js) Footer of the Admin pages .
+Which includes the copyright text.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
+Consists of the file name (Sidebar.js) Sidebar of the admin pages.
+which includes the link to the dashboard page , Product Management page ,Order Management page.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+output:
+![image](https://github.com/AkashPaul007/Enterprise-Resource-Planning-Model/assets/162669398/cc060d53-6e5c-4eaa-891d-0573c5d0b8e7)
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Consists of file name (Topbar.js) Topbar of the Admin pages . 
+which consists of the search pannel
+
